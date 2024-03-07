@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Camel";
+  src: url("https://fonts.googleapis.com/css?family=Cabin");
+}
+
+body {
+  margin: 0;
+  font-family: "Camel", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content-link {
+  color: #3B755F;
+  font-weight: bold;
+  text-decoration: solid;
+}
+
+.loading-display {
+  position: relative;
+  text-align: center;
+
+  h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+}

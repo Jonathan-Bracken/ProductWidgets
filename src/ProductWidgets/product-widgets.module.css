@@ -1,0 +1,73 @@
+/* Widgets Component */
+
+.productWidgets {
+    background-color: #f8f5f5;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 40px;
+
+    h1 {
+        margin-right: 5%;
+    }
+
+    .loading-display {
+        margin-top: 30px;
+    }
+
+    .widgetContainer {
+        color: #3B755F;
+        margin-bottom: 20px;
+        padding-right: 5%;
+
+        .widgetActionRow {
+            height: 40px;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .widgetBadge {
+            border-radius: 8px;
+            margin-bottom: 10px;
+            padding: 10px;
+
+            .logoContainer {
+                max-height: 50px;
+                max-width: 20%;
+
+                img {
+                    height: auto;
+                    padding: 5px;
+                    width: 100%;
+                }
+            }
+
+            .widgetTitleContainer {
+                width: 80%;
+
+                .widgetAction, .widgetAmount {
+                    margin: 2px 0;
+                }
+
+                .widgetAction {
+                    font-size: 14px;
+                }
+
+                .widgetAmount {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .productWidgets {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .widgetContainer {
+        .widgetActionRow, .widgetBadge {
+            padding-right: 0; /* Remove extra padding on smaller screens */
+        }
+    }
+}

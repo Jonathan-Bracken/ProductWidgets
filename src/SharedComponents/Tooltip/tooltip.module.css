@@ -1,0 +1,35 @@
+/* Tooltip Component */
+
+.tooltipIconWrapper {
+    position: relative;
+
+    .tooltipIcon {
+        bottom: 25%;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        margin-left: 5px;
+        position: absolute;
+
+        .tooltipContent {
+            background-color: white;
+            border-radius: 2px;
+            bottom: 100%;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.2);
+            color: black;
+            cursor: default;
+            left: -140px;
+            opacity: 1;
+            padding: 20px;
+            position: absolute;
+            text-align: center;
+            visibility: visible;
+            width: 280px;
+
+            &.hidden {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}

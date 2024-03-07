@@ -1,0 +1,26 @@
+/* Colour Picker Component */
+
+.colourPicker {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 25%;
+
+    .colourSelect {
+        border: 2px solid transparent;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        height: 22px;
+        margin-left: 5px;
+        width: 22px;
+    
+        &:hover {
+            opacity: 0.6;
+        }
+    
+        &.selected {
+            border: 2px solid #a3a3a3;
+        }
+    }
+}
